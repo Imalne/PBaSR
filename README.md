@@ -26,16 +26,16 @@ python setup.py develop
 ```
 
 ## Dataset Preparation for test and training
-* Download the **ReBlurSR** dataset from [Google Drive](https://drive.google.com/file/d/1mkjSd95VxWr63GBbfpmy9ImlweChorf0/view?usp=sharing) and follow the instructions in the dataset to generate the training and validation datasets.
+* Download the **ReBlurSR** dataset from [**Google Drive**](https://drive.google.com/file/d/1mkjSd95VxWr63GBbfpmy9ImlweChorf0/view?usp=sharing) and follow the [**Instructions**](https://github.com/Imalne/ReBlurSR) to generate the training and validation datasets.
 
 ## Training
 The training codes and configs will be released soon.
 
 
 ## Inference
-* Download the pretrained model weights from [Google Drive](https://drive.google.com/drive/folders/1ZEOM54_xQAjoYgOj3wq_N9VuzCEKPV7o?usp=sharing)
+* Download the pretrained model weights from [**Google Drive**](https://drive.google.com/drive/folders/1ZEOM54_xQAjoYgOj3wq_N9VuzCEKPV7o?usp=sharing)
 * Put the pretrained model weights in `experiments/pretrained_models`
-* Download the synthetic testing LR images of **DIV2K-Val** from [Google Drive](https://drive.google.com/file/d/1lOisg1T-ByMYJFBZP5h4aqJJmnOppBjW/view?usp=sharing)
+* Download the synthetic testing LR images of **DIV2K-Val** from [**Google Drive**](https://drive.google.com/file/d/1lOisg1T-ByMYJFBZP5h4aqJJmnOppBjW/view?usp=sharing)
 * Modify the '`weight paths with comment`' in `options/test*.yml`
 ```yaml
 # in option/test_PBaSR_ESRGAN.yml
