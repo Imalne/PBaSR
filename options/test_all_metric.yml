@@ -1,0 +1,36 @@
+num_gpu: 1 # set 0 for cpu setting
+
+# validation settings·
+val:
+  metrics:
+    lpips:
+      type: lpips 
+      better: lower
+    ahiq:
+      type: ahiq
+    ckdn:
+      type: ckdn
+    dists:
+      type: dists
+    vif:
+      type: vif
+    gmsd:
+      type: gmsd
+      test_y_channel: true
+    vsi:
+      type: vsi
+    psnr:
+      type: psnr
+      crop_border: 4
+      test_y_channel: true
+    ssim:
+      type: ssim
+      crop_border: 4
+      test_y_channel: true
+    stlpips:
+      type: stlpips
+      better: lower
+    topiq_fr-pipal:
+      type: topiq_fr-pipal
+      better: lower   
+
