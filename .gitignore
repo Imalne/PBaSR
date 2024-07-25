@@ -2,6 +2,7 @@
 /results/*
 /tb_logger/*
 *.egg-info/
+/docs/*
 
 
 

@@ -1,7 +1,10 @@
 # PBaSR
 
-<!-- This is the PyTorch Repository for the paper
-[Exploring Blind Super-Resolution for Real-world Blur Images (ECCV 2024)](####)   -->
+This is the PyTorch Repository for the paper
+[Exploring Blind Super-Resolution for Real-world Blur Images](https://arxiv.org/abs/2407.14880) 
+
+[![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2407.14880)
+
 
 
 ## Basic Dependencies
