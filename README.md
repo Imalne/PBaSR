@@ -5,8 +5,8 @@ This is the PyTorch Repository for the paper
 
 [![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2407.14880)
 
-![framework_img](docs/metric.png)
-![framework_img](docs/sample.png)
+![framework_img](doc/metric.png)
+![framework_img](doc/sample.png)
 
 ## Basic Dependencies
 
