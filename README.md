@@ -30,7 +30,7 @@ python setup.py develop
 ```
 
 ## Dataset Preparation for test and training
-* Download the **ReBlurSR** dataset from [**Google Drive**](https://drive.google.com/file/d/1mkjSd95VxWr63GBbfpmy9ImlweChorf0/view?usp=sharing) and follow the [**Instructions**](https://github.com/Imalne/ReBlurSR) to generate the training and validation datasets.
+* Download the **ReBlurSR** dataset from [**Hugging Face**](https://huggingface.co/datasets/Enlami/ReBlurSR/blob/main/ReBlurSR.zip) and follow the [**Instructions**](https://github.com/Imalne/ReBlurSR) to generate the training and validation datasets.
 
 ## Training
 The training codes and configs will be released soon.
